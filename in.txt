@@ -1,0 +1,3 @@
+g++ -L. -I. -Wall future_net.cpp io.cpp route.cpp -llpsolve55 -o future_net
+export LD_LIBRARY_PATH=./
+./future_net /home/han/Desktop/HUAWEI2016/test-case/case0/topo.csv /home/han/Desktop/HUAWEI2016/test-case/case0/demand.csv /home/han/Desktop/HUAWEI2016/test-case/case0/sample_result.csv
